@@ -1,11 +1,14 @@
 {
-  "editor.codeActionsOnSave": { "source.fixAll.eslint": true }, 
-  "editor.formatOnSave": true, 
-  "eslint.alwaysShowStatus": true, 
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
   "files.autoSave": "onFocusChange",
   "standard.enable": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // }
+  "files.exclude": {
+     "**/.git": false
   }
 }
